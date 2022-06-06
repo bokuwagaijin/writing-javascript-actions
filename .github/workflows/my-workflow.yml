@@ -13,7 +13,7 @@ jobs:
 
       - name: hello-action
         uses: ./.github/actions/hello-world
-        env:
+        with:
           third-greeting: "Number 8"
 
       - name: ha-ha
